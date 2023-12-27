@@ -1,0 +1,68 @@
+saldo = 0
+limit = 500
+numero_saques = 0
+LIMITE_SAQUES = 3
+
+print("Por favor escolha qual opção deseja seguir:")
+
+print("[1]Saque")
+
+print("[2]Depósito")
+
+print("[3]Extrato")
+
+print("[4]Sair")
+
+opcao = input("Ação:")
+
+def operacao_deposito:
+if opcao == 2:
+    valor_deposito = int(input("Insira o valor a ser depositado: "))
+elif valor_deposito <= 0:
+    print("O valor depositado precisa ser positivo ou diferente de zero.") 
+
+
+else:
+    print("O valor de R$", valor_deposito, "foi efetivado com sucesso.")
+
+ saldo += valor_deposito
+
+print("Seu saldo atual é R$", saldo)
+
+def operacao_saque:
+if opcao == 1:
+elif numero_saques > LIMITE_SAQUES:
+    print("Limite de saque atingido\n")
+
+else:
+
+    valor_saque = int(input("Insira o valor a ser sacado: "))
+
+if valor_saque <= 0:
+    print("O valor deve ser diferente de 0.")
+
+else:
+    saldo -= valor_saque
+
+print("Seu saldo atual é de R$ ", saldo)
+
+def operaco_extrado:
+print("Seu saldo total é de R$ ", saldo)
+
+elif opcao == "4":
+
+break
+
+else:
+
+print("Operacao invalida.2")
+        
+
+
+
+
+
+
+
+
+
